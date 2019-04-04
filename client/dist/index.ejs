@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style/index.css" type="text/css">
+</head>
+<body>
+
+  <div class="container">
+    <img src="image/logo_small.png" style="width:300px; height:150px"><br><br><br>
+    <br><h1 id = "indextitle">안녕하세요. 알바관리자<br>'시그비'에 오신것을 환영합니다.</h1>
+    <div class="box1">
+      <p><label>이미 ID가 있다면</label></p>
+          <button type="button" class="loginBtn">로 그 인</button>
+      <p><label>첫 이용자라면</label></p>  
+          <button type="button" class="signupBtn">회 원 가 입</button>  
+    </div>
+    </div>
+  </div>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+<script>
+  $(".loginBtn").click(function(){
+    window.location.href = "/login";
+  })
+  $(".signupBtn").click(function(){
+      window.location.href = "/signup_choose";
+  })
+</script>
+
+</body>
+</html>
